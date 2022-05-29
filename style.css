@@ -1,0 +1,23 @@
+input {
+  text-align: right;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.sum {
+  display: block;
+  position: relative;
+}
+
+.sum > .input {
+  position: absolute;
+  z-index: -1;
+}
